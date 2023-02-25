@@ -22,7 +22,6 @@ let days = [
 let day = days[now.getDay()];
 
 h3.innerHTML = `${day} ${date} ${hour}:${min}`;
-//search button
 
 function displayWeatherCondition(response) {
   console.log(response.data);
